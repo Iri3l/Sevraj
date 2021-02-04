@@ -10,7 +10,7 @@ const Header = () => {
         <Typed 
           className="typed-text"
           strings={["Web Design", "Web Development", "Facebook Ads SMM", "Google Ads"]}
-          typeSpeed={40}
+          typeSpeed={50}
           backSpeed={60}
           loop
           />
