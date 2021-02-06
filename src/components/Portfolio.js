@@ -1,8 +1,8 @@
 import React from "react";
-import First from "../Motivational/1.jpg";
-import Second from "../Motivational/2.jpg";
-import Third from "../Motivational/3.jpg";
-import Fourth from "../Motivational/4.jpg";
+import First from "../Motivational/Forever.png";
+import Second from "../Motivational/ig.png";
+import Third from "../Motivational/iri.png";
+import Fourth from "../Motivational/twocm.png";
 // FONTAWESOME IMPORTS 
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faSearchPlus,} from "@fortawesome/free-solid-svg-icons";
@@ -17,9 +17,9 @@ const Portfolio = () => {
         const content = (
             <>
             <img className="portfolio-iamge-popupbox" src={First} alt="First picture.." />
-        <p>Here can be added a description about the project in your portfolio</p>
-        <b>Online CV</b> <a className="hyper-link" onClick={() => window.open("https://lazarovici.co.uk")}>
-            https://lazarovici.co.uk</a>
+        <p></p>
+        <b>Online Shop</b> <a className="hyper-link" onClick={() => window.open("https://foreverstyle.uk")}>
+            https://foreverstyle.uk</a>
             </>
         )
         PopupboxManager.open({ content })
@@ -27,7 +27,7 @@ const Portfolio = () => {
     const popupboxConfigFirst = {
         titleBar: {
             enable: true,
-            text: "First Project."
+            text: "One of the projects"
         },
         fadeIn: true,
         fadeInSpeed: 500,
@@ -37,7 +37,7 @@ const Portfolio = () => {
         const content = (
             <>
             <img className="portfolio-iamge-popupbox" src={Second} alt="Second picture.." />
-        <p>Here can be added a description about the project in your portfolio</p>
+        <p>Construction company busines website</p>
         <b>Construction company</b> <a className="hyper-link" onClick={() => window.open("https://ig-ol.co.uk")}>
             https://ig-ol.co.uk</a>
             </>
@@ -47,7 +47,7 @@ const Portfolio = () => {
     const popupboxConfigSecond = {
         titleBar: {
             enable: true,
-            text: "Second Project."
+            text: "One of the projects."
         },
         fadeIn: true,
         fadeInSpeed: 500,
@@ -57,9 +57,9 @@ const Portfolio = () => {
         const content = (
             <>
             <img className="portfolio-iamge-popupbox" src={Third} alt="Third picture.." />
-        <p>Here can be added a description about the project in your portfolio</p>
-        <b>Construction company</b> <a className="hyper-link" onClick={() => window.open("https://twocm.co.uk")}>
-            https://twocm.co.uk</a>
+        <p></p>
+        <b>Online CV</b> <a className="hyper-link" onClick={() => window.open("https://lazarovici.co.uk")}>
+            https://lazarovici.co.uk</a>
             </>
         )
         PopupboxManager.open({ content })
@@ -67,7 +67,7 @@ const Portfolio = () => {
     const popupboxConfigThird = {
         titleBar: {
             enable: true,
-            text: "Third Project."
+            text: "One of the projects"
         },
         fadeIn: true,
         fadeInSpeed: 500,
@@ -77,9 +77,9 @@ const Portfolio = () => {
         const content = (
             <>
             <img className="portfolio-iamge-popupbox" src={Fourth} alt="Fourth picture.." />
-        <p>Here can be added a description about the project in your portfolio</p>
-        <b>Construction company</b> <a className="hyper-link" onClick={() => window.open("https://irinel.uk")}>
-            https://irinel.uk</a>
+        <p></p>
+        <b>Construction company</b> <a className="hyper-link" onClick={() => window.open("https://twocm.co.uk")}>
+            https://twocm.co.uk</a>
             </>
         )
         PopupboxManager.open({ content })
@@ -87,7 +87,7 @@ const Portfolio = () => {
     const popupboxConfigFourth = {
         titleBar: {
             enable: true,
-            text: "Fourth Project."
+            text: "One of the projects."
         },
         fadeIn: true,
         fadeInSpeed: 500,

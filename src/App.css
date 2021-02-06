@@ -48,7 +48,7 @@ nav ul li {
   margin-left: 0 !important;
 }
 
-.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
   border-top: 0.2rem solid var(--primary-lightblue);
 }
 

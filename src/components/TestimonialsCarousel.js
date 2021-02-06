@@ -18,33 +18,27 @@ const TestimonialsCarousel = () => {
         interval={3000}
         >
             <>
-                <img src={avatar1} alt="John Doe 1" />
+                <img src={avatar1} alt="2cm" />
                 <div className="myCarousel">
-                <h3>John Doe 1</h3>
-                <p>The fucking snippets are not fucking working</p>
+                <h3>2cm</h3>
+                <p>The page works fine, I'm happy and I highly recomended </p>
                 </div>
             </>
             <>
-                <img src={avatar2} alt="Jane Doe 2" />
+                <img src={avatar4} alt="IG-OL" />
                 <div className="myCarousel">
-                <h3>Jane Doe 2</h3>
-                <p>The fucking snippets are not fucking working</p>
+                <h3>IG-OL</h3>
+                <p>This helped me to improve my business, I'm happy and I highly recomended</p>
                 </div>
             </>
             <>
-                <img src={avatar3} alt="John Doe 3" />
+                <img src={avatar3} alt="Forever Style" />
                 <div className="myCarousel">
-                <h3>John Doe 3</h3>
-                <p>The fucking snippets are not fucking working</p>
+                <h3>ForeverStyle</h3>
+                <p>Recomended</p>
                 </div>
             </>
-            <>
-                <img src={avatar4} alt="John Doe 4" />
-                <div className="myCarousel">
-                <h3>John Doe 4</h3>
-                <p>The fucking snippets are not fucking working</p>
-                </div>
-            </>
+           
         </Carousel>
     )
 }
