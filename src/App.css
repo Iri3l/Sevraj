@@ -62,7 +62,7 @@ nav ul li {
   background: url(../src/2047905.jpeg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 .main-info {
   display: flex;
@@ -340,13 +340,15 @@ nav ul li {
   transition: 0.3s ease-in-out;
   cursor: pointer;
 }
-
+.popupbox-wrapper{
+  margin-top: 7rem;
+}
 /************* Image popupbox *****************/
 
 .portfolio-iamge-popupbox {
   width: 45rem;
   padding: 0 0.5rem;
-  height: 45rem;
+  height: 40rem;
 }
 .hyper-link {
   cursor: pointer;
@@ -532,3 +534,22 @@ textarea.form-control {
      padding: 0 0.4rem;
    }
  }
+
+  /************* Footer Component *****************/
+  .footer {
+    background-color: black;
+    color: var(--primary-aqua);
+    padding: 3rem;
+  }
+  .footer a {
+    text-decoration: none;
+    color: var(--primary-aqua);
+  }
+  .footer a:hover {
+    text-decoration: none;
+    color:var(--primary-lightblue);
+    cursor: pointer;
+  }
+  .footer p {
+    margin-bottom: 0;
+  }
