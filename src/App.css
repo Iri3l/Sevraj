@@ -138,7 +138,7 @@ nav ul li {
 }
 
 .about-heading {
-  color: aquamarine;
+  color: var(--primary-aqua);
   text-transform: uppercase;
 }
 @media(max-width: 468px) {
@@ -157,7 +157,7 @@ nav ul li {
   background: #f4f4f4;
 }
 .services h1 {
-  color: var(--primary-dark);
+  color: var(--primary-aqua);
   text-transform: uppercase;
 }
 .services .circle {
@@ -209,7 +209,7 @@ nav ul li {
 }
 .experience h1 {
   text-transform: uppercase;
-  color: orange;
+  color: var(--primary-aqua);
 }
 .experience-wrapper::before { 
   position: absolute;
@@ -243,7 +243,7 @@ nav ul li {
   height: 1rem;
   border-radius: 50%;
   border: 0.3125rem solid var(--primary-dark);
-  background: orange;
+  background: aquamarine;
   margin-top: 0.625rem;
   z-index: 3;
 }
@@ -290,12 +290,12 @@ nav ul li {
   padding: 3rem 0;
 }
 .portfolio-wrapper h1 {
-  color: orange;
+  color: var(--primary-aqua);
 }
 .portfolio-image {
   width: 15rem;
   height: 15rem;
-  border: 1px solid orange;
+  border: 1px solid aquamarine;
   padding: 0 0.5rem;
 }
 .portfolio-image-box {
@@ -326,7 +326,7 @@ nav ul li {
   opacity: 0;
   margin-left: -8rem;
   margin-top: 3.6rem;
-  color: orange;
+  color: aquamarine;
   font-size: 1.5rem;
 }
 .portfolio-image-box:hover .portfolio-icon {
@@ -344,7 +344,7 @@ nav ul li {
 }
 .hyper-link {
   cursor: pointer;
-  color: orange;
+  color: aquamarine;
 }
 .hyper-link:hover {
   color: red;
@@ -374,4 +374,61 @@ nav ul li {
     width: 30%;
     
   }
+  }
+
+  /************* testimonials *****************/
+
+  .testimonials{
+    background-image: url(testimonials-bg.jpg);
+    background-size: cover;
+    background-color: black;
+    text-align: center;
+    padding-bottom: 4rem;
+    margin-bottom: 0;
+    width: 100%;
+  }
+  .testimonials h1 {
+    color: var(--primary-aqua);
+    padding: 3rem 0;
+    text-transform: uppercase;
+  }
+  .testimonials-content {
+    text-align: center;
+    max-width: 53.125rem;
+    margin: 0 auto 2rem auto;
+    background: rgba(0, 0, 0, 0.7);
+  }
+  .myCarousel {
+    color: white;
+    background: transparent;
+    margin-top: -6%;
+    width: 54%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 6%;
+    padding-bottom: 8%;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 17.875rem;
+  }
+  .myCarousel h3 {
+    color: var(--primary-aqua);
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .myCarousel p {
+    color: burlywood;
+  }
+  .carousel .slide img {
+    width: 10rem !important;
+    border-radius: 50%;
+  }
+  .carousel .slide {
+    background: transparent !important;
+    height: 100% !important;
+    padding-top: 2rem;
+  }
+  .corousel-root {
+    margin: auto !important;
+    margin-top: 3% !important;
   }
