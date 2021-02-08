@@ -4,6 +4,7 @@ import Second from "../Motivational/ig.png";
 import Third from "../Motivational/iri.png";
 import Fourth from "../Motivational/twocm.png";
 import Fifth from "../Motivational/App1.png";
+import Sixth from "../Motivational/busi.png";
 
 // FONTAWESOME IMPORTS 
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
@@ -114,6 +115,26 @@ const Portfolio = () => {
         fadeIn: true,
         fadeInSpeed: 500,
     }
+    // Sixth
+    const openPopupBoxSixth = () => {
+        const content = (
+            <>
+            <img id="fifth" className="portfolio-iamge-popupbox" src={Sixth} alt="Sixth picture.." />
+        <p></p>
+        <b>Business opportunity Read more... </b> <a className="hyper-link" onClick={() => window.open("http://irinel.myforever.biz/personal-website/")}>
+        http://irinel.myforever.biz/personal-website/</a>
+            </>
+        )
+        PopupboxManager.open({ content })
+    }
+    const popupboxConfigSixth = {
+        titleBar: {
+            enable: true,
+            text: "One of my projects."
+        },
+        fadeIn: true,
+        fadeInSpeed: 500,
+    }
 
     return (
         <div id="portfolio" className="portfolio-wrapper">
@@ -145,6 +166,11 @@ const Portfolio = () => {
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>
+                    <div className="portfolio-image-box" onClick={openPopupBoxSixth} >
+                        <img className="portfolio-image" src={Sixth} alt="sixth pic for portfolio" />
+                        <div className="overflow"></div>
+                        <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+                    </div>
                 </div>
             </div>
             <PopupboxContainer {...popupboxConfigFirst} />
@@ -152,6 +178,7 @@ const Portfolio = () => {
             <PopupboxContainer {...popupboxConfigThird} />
             <PopupboxContainer {...popupboxConfigFourth} />
             <PopupboxContainer {...popupboxConfigFifth} />
+            <PopupboxContainer {...popupboxConfigSixth} />
         </div>
     )
 }
