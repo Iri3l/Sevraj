@@ -2,7 +2,7 @@ import React from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faFacebookF, faGoogle,} from "@fortawesome/free-brands-svg-icons";
 import {faDesktop, faFileCode,} from "@fortawesome/free-solid-svg-icons";
-
+import {faJedi, faCloud, faEdit} from "@fortawesome/free-solid-svg-icons";
 
 const Services = () => {
     return (
@@ -44,6 +44,33 @@ const Services = () => {
                                 </div>
                                 <h3>Google Ads</h3>
                                 <p>Your services or product will appear at the top of google search.</p>
+                            </div>
+                        </div>
+                        <div className="col-lg-3 col-md-6 col-sm-6">
+                            <div className="box">
+                            <div className="circle">
+                                    <FontAwesomeIcon className="icon" icon={faJedi} size="2x"/>
+                                </div>
+                                <h3>Logo Creator</h3>
+                                <p>Your services or product will have your personal logo.</p>
+                            </div>
+                        </div>
+                        <div className="col-lg-3 col-md-6 col-sm-6">
+                            <div className="box">
+                            <div className="circle">
+                                    <FontAwesomeIcon className="icon" icon={faCloud} size="2x"/>
+                                </div>
+                                <h3>Hosting</h3>
+                                <p>Domain or web hosting, where people can find your services or product online.</p>
+                            </div>
+                        </div>
+                        <div className="col-lg-3 col-md-6 col-sm-6">
+                            <div className="box">
+                            <div className="circle">
+                                    <FontAwesomeIcon className="icon" icon={faEdit} size="2x"/>
+                                </div>
+                                <h3>Editing</h3>
+                                <p>If you have an old page and you like to upgrade it.</p>
                             </div>
                         </div>
                     </div>
