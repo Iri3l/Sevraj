@@ -44,7 +44,7 @@ const Experience = () => {
                     <div class="timeline-content">
                         <h3>08/2019 - Present</h3>
                         <h5>Digital Webber</h5>
-                             <p> (Parteners)</p>
+                             <p> (Partners)</p>
                     </div>
                 </div>
                 <div className="timeline-block timeline-block-right">
