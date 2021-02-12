@@ -81,8 +81,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <p className="pt-3 text-center">
-                        &copy;
-                            {new Date().getFullYear()}&nbsp; Lazarovici Web Design LLC&trade; | All Rights Reserved.
+                            {new Date().getFullYear()}&nbsp; Lazarovici Web Design LLC &reg; | All Rights Reserved.
                         </p>
                 </div>
                 <div className="d-flex">
